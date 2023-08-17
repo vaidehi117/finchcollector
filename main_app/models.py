@@ -4,14 +4,14 @@ from datetime import date
 
 MEALS = (
     ('B', 'Breakfast'),
-    ('L', Lunch),
-    ('D', Dinner),
+    ('L', 'Lunch'),
+    ('D','Dinner'),
 )
 
 # Create your models here.
 
 
-class Toy(models.Models):
+class Toy(models.Model):
     name = models.CharField(max_length=50)
     color = models.CharField(max_length=20)
 
